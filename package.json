@@ -1,0 +1,29 @@
+{
+  "name": "expo-monorepo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ./src --ext ts"
+  },
+  "dependencies": {
+    "find-up": "^5.0.0",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "@expo/metro-config": "^0.2.2",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/node": "^16.10.3",
+    "@types/semver": "^7.3.8",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-universe": "^7.0.1",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  }
+}
